@@ -103,3 +103,49 @@ gpa = 3.4
 if credits >= 120 and gpa >= 2.0:
   print("You meet the requirements to graduate!")
 ```
+
+
+Else If Statements
+=
+We have `if` statements, we have `else` statements, we can also have `elif` statements. An `elif` statement checks another condition after the previous if statements conditions aren’t met. First, the `if` statement is checked, then each `elif` statement is checked from top to bottom, then finally the `else` code is executed if none of the previous conditions have been met.
+
+Task 
+=
+1. Calvin Coolidge’s Cool College has noticed that students prefer to get letter grades. Write an if/elif/else statement that:
+- If grade is 90 or higher, print "A"
+- Else if grade is 80 or higher, print "B"
+- Else if grade is 70 or higher, print "C"
+- Else if grade is 60 or higher, print "D"
+- Else, print "F"
+
+
+Code.py
+```
+grade = 86
+
+if grade >= 90:
+  print ("A")
+elif grade >= 80:
+  print("B")
+elif grade >= 70:
+  print("C")
+elif grade >= 60:
+  print("D")
+else:
+  print("F")
+
+if grade >= 90:
+  print("A")
+elif grade >= 80:
+  print("B")
+elif grade >= 70:
+  print("C")
+elif grade >= 60:
+  print("D")
+else:
+  print("F")
+```
+
+Sumamry
+= 
+In the `code.py` example above each condition is checked sequentially and only prints one message, the code is completed when one of the condition has bet met, if the code gets through all the elif statement all no condtion was met then the else code is executed. 
