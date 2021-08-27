@@ -149,3 +149,18 @@ else:
 Sumamry
 = 
 In the `code.py` example above each condition is checked sequentially and only prints one message, the code is completed when one of the condition has bet met, if the code gets through all the elif statement all no condtion was met then the else code is executed. 
+
+Overview
+=
+- Boolean expressions are statements that can be either `True` or `False`
+- A boolean variable is a variable that is set to either `True` or `False`.
+- We can create boolean expressions using relational operators:
+- `==`: Equals
+- `!=`: Not equals
+- `>`: Greater than
+- `>=`: Greater than or equal to
+- `<`: Less than
+- `<=`: Less than or equal to
+- `if` statements can be used to create control flow in your code.
+- `else` statements can be used to execute code when the conditions of an   if   statement are not met.
+- `elif` statements can be used to build additional checks into your `if` statements
