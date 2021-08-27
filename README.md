@@ -1,7 +1,7 @@
 # LearnPython
 Python is a general-purpose, versatile and popular programming language. 
 
-Task 
+Boolean Variables Task 
 =
 1. Create a variable named my_baby_bool and set it equal to "true".
 2. Check the type of my_baby_bool using type(my_baby_bool). You’ll have to print it to get the results to display in the terminal.
